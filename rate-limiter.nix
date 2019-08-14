@@ -9,6 +9,8 @@ mkDerivation {
   libraryHaskellDepends = [
     base refined template-haskell transient
   ];
-  executableHaskellDepends = [ base ];
+  executableHaskellDepends = [
+    base refined template-haskell transient
+  ];
   license = stdenv.lib.licenses.asl20;
 }
