@@ -20,4 +20,3 @@ toMicroSeconds :: Duration -> Int
 toMicroSeconds (Duration n Seconds) = n * 1000000
 toMicroSeconds (Duration n Minutes) = n * 60 * 1000000
 toMicroSeconds (Duration n Hours  ) = n * 60 * 60 * 1000000
-
